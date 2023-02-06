@@ -3,7 +3,7 @@ package com.gmail.ivdanilov96.leetcode.tasks.easy;
 import com.gmail.ivdanilov96.leetcode.tasks.Task;
 import com.gmail.ivdanilov96.leetcode.tasks.TaskNum;
 
-@Task(TaskNum.T_953)
+@Task(TaskNum.EASY_953)
 public class VerifyingAlienWord {
 
   public boolean isAlienSorted(String[] words, String order) {
