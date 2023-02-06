@@ -1,7 +1,5 @@
 package com.gmail.ivdanilov96.leetcode.tasks.medium;
 
-import static com.gmail.ivdanilov96.leetcode.tasks.TaskNum.MEDIUM_438;
-
 import com.gmail.ivdanilov96.leetcode.tasks.Task;
 import com.gmail.ivdanilov96.leetcode.tasks.TaskNum;
 import java.util.ArrayList;
