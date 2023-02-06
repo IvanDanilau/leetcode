@@ -3,7 +3,7 @@ package com.gmail.ivdanilov96.leetcode.tasks.easy;
 import com.gmail.ivdanilov96.leetcode.tasks.Task;
 import com.gmail.ivdanilov96.leetcode.tasks.TaskNum;
 
-@Task(TaskNum.T_1071)
+@Task(TaskNum.EASY_1071)
 public class GreatestCommonDivisorOfStrings {
 
   public String gcdOfStrings(String first, String second) {
