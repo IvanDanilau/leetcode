@@ -10,7 +10,7 @@ public enum TaskNum {
   EASY_1071("https://leetcode.com/problems/greatest-common-divisor-of-strings/"),
   EASY_1470("https://leetcode.com/problems/shuffle-the-array/description/"),
   MEDIUM_6("https://leetcode.com/problems/zigzag-conversion/"),
-  MEDIUM_178("https://leetcode.com/problems/rank-scores/description/"),
+  MEDIUM_178("https://leetcode.com/problems/rank-scores/description/", SQL),
   MEDIUM_438("https://leetcode.com/problems/find-all-anagrams-in-a-string/"),
   MEDIUM_567("https://leetcode.com/problems/permutation-in-string/"),
   MEDIUM_608("https://leetcode.com/problems/tree-node/", SQL),
