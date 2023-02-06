@@ -6,5 +6,6 @@
 *.jar
 *.zip
 .env
+*.iml
 
 
