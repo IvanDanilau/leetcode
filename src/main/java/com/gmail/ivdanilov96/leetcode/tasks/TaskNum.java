@@ -14,6 +14,7 @@ public enum TaskNum {
   MEDIUM_438("https://leetcode.com/problems/find-all-anagrams-in-a-string/"),
   MEDIUM_567("https://leetcode.com/problems/permutation-in-string/"),
   MEDIUM_608("https://leetcode.com/problems/tree-node/", SQL),
+  MEDIUM_904("https://leetcode.com/problems/fruit-into-baskets/"),
   HARD_42("https://leetcode.com/problems/trapping-rain-water/description/"),
   HARD_185("https://leetcode.com/problems/department-top-three-salaries/description/", SQL);
 
