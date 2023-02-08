@@ -12,8 +12,14 @@ import org.junit.jupiter.params.provider.MethodSource;
 @DisplayName("Task #567 - Permutation in String")
 class PermutationInStringTest {
 
-  @ParameterizedTest
+  @ParameterizedTest(name = """
+      Сase {index}:
+      source string: {0};
+      substring: {1};
+      expect inclusion: {2}")
+      """)
   @MethodSource("initParameters")
+  @DisplayName("Check Inclusion:")
   void checkInclusion(String s1, String s2, boolean included) {
     var task = new PermutationInString();
     Assertions.assertEquals(task.checkInclusion(s1, s2), included);
