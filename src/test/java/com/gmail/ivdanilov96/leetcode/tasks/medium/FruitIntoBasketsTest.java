@@ -22,6 +22,7 @@ class FruitIntoBasketsTest {
   void totalFruit(int[] treeRow, int expectedBestIteration) {
     var task = new FruitIntoBaskets();
     Assertions.assertEquals(expectedBestIteration, task.totalFruit(treeRow));
+    Assertions.assertEquals(expectedBestIteration, task.totalFruitLeetcode(treeRow));
   }
 
   private static Stream<Arguments> initParameters() {
