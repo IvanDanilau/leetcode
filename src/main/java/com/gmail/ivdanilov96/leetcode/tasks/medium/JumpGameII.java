@@ -1,5 +1,9 @@
 package com.gmail.ivdanilov96.leetcode.tasks.medium;
 
+import com.gmail.ivdanilov96.leetcode.tasks.Task;
+import com.gmail.ivdanilov96.leetcode.tasks.TaskNum;
+
+@Task(TaskNum.MEDIUM_45)
 public class JumpGameII {
 
   //Brut_force
@@ -26,17 +30,17 @@ public class JumpGameII {
 
   //after researching
   public int jumpAfterLeetcode(int[] nums) {
-    int current = 0;
+    int iterations = 0;
+    int curr = 0;
     int next = 0;
-    int answer = 0;
     for (int i = 0; i < nums.length - 1; i++) {
       next = Math.max(next, nums[i] + i);
-      if (current == i) {
-        answer++;
-        current = next;
+      if (i == curr) {
+        iterations++;
+        curr = next;
       }
     }
-    return answer;
+    return iterations;
   }
 
 }
