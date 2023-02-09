@@ -5,6 +5,7 @@ import static com.gmail.ivdanilov96.leetcode.tasks.ProgrammingLang.SQL;
 public enum TaskNum {
 
   EASY_35("https://leetcode.com/problems/search-insert-position"),
+  EASY_824("https://leetcode.com/problems/goat-latin"),
   EASY_953("https://leetcode.com/problems/verifying-an-alien-dictionary"),
   EASY_1050(
       "https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times",
