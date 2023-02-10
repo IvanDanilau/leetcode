@@ -23,6 +23,7 @@ class SearchInsertPositionTest {
   void searchInsert(int[] nums, int target, int expected) {
     var task = new SearchInsertPosition();
     assertEquals(expected, task.searchInsert(nums, target));
+    assertEquals(expected, task.searchInsertRecursion(nums, target, 0));
   }
 
   private static Stream<Arguments> inputParameters() {
