@@ -13,7 +13,7 @@ public class WordPattern {
     if (pattern.length() != words.length) {
       return false;
     }
-    HashMap<Integer, String> matches = new HashMap<>();)
+    HashMap<Integer, String> matches = new HashMap<>();
     for (int i = 0; i < words.length; i++) {
       String word = words[i];
       int index = pattern.charAt(i) - 'a';
