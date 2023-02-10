@@ -6,6 +6,7 @@ public enum TaskNum {
 
   EASY_35("https://leetcode.com/problems/search-insert-position"),
   EASY_824("https://leetcode.com/problems/goat-latin"),
+  EASY_290("https://leetcode.com/problems/word-pattern"),
   EASY_953("https://leetcode.com/problems/verifying-an-alien-dictionary"),
   EASY_1050(
       "https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times",
@@ -20,6 +21,7 @@ public enum TaskNum {
   MEDIUM_567("https://leetcode.com/problems/permutation-in-string"),
   MEDIUM_608("https://leetcode.com/problems/tree-node", SQL),
   MEDIUM_904("https://leetcode.com/problems/fruit-into-baskets"),
+  MEDIUM_1162("https://leetcode.com/problems/as-far-from-land-as-possible"),
   HARD_42("https://leetcode.com/problems/trapping-rain-water"),
   HARD_185("https://leetcode.com/problems/department-top-three-salaries", SQL),
   HARD_2306("https://leetcode.com/problems/naming-a-company/");
