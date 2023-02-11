@@ -8,6 +8,7 @@ public enum TaskNum {
   EASY_824("https://leetcode.com/problems/goat-latin"),
   EASY_290("https://leetcode.com/problems/word-pattern"),
   EASY_953("https://leetcode.com/problems/verifying-an-alien-dictionary"),
+  EASY_1047("https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/"),
   EASY_1050(
       "https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times",
       SQL),
