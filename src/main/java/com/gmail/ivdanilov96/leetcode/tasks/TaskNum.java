@@ -14,6 +14,8 @@ public enum TaskNum {
       SQL),
   EASY_1071("https://leetcode.com/problems/greatest-common-divisor-of-strings"),
   EASY_1470("https://leetcode.com/problems/shuffle-the-array"),
+  EASY_1491(
+      "https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary"),
   EASY_1795("https://leetcode.com/problems/rearrange-products-table/"),
   MEDIUM_6("https://leetcode.com/problems/zigzag-conversion"),
   MEDIUM_45("https://leetcode.com/problems/jump-game-ii"),
@@ -23,6 +25,7 @@ public enum TaskNum {
   MEDIUM_608("https://leetcode.com/problems/tree-node", SQL),
   MEDIUM_904("https://leetcode.com/problems/fruit-into-baskets"),
   MEDIUM_1162("https://leetcode.com/problems/as-far-from-land-as-possible"),
+  MEDIUM_1129("https://leetcode.com/problems/shortest-path-with-alternating-colors"),
   HARD_42("https://leetcode.com/problems/trapping-rain-water"),
   HARD_185("https://leetcode.com/problems/department-top-three-salaries", SQL),
   HARD_2306("https://leetcode.com/problems/naming-a-company/");
