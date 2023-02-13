@@ -16,6 +16,7 @@ public enum TaskNum {
   EASY_1470("https://leetcode.com/problems/shuffle-the-array"),
   EASY_1491(
       "https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary"),
+  EASY_1523("https://leetcode.com/problems/count-odd-numbers-in-an-interval-range"),
   EASY_1729("https://leetcode.com/problems/find-followers-count", SQL),
   EASY_1795("https://leetcode.com/problems/rearrange-products-table/",SQL),
   MEDIUM_6("https://leetcode.com/problems/zigzag-conversion"),
