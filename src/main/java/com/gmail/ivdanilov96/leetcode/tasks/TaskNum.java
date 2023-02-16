@@ -8,6 +8,7 @@ public enum TaskNum {
   EASY_67("https://leetcode.com/problems/add-binary/"),
   EASY_104("https://leetcode.com/problems/maximum-depth-of-binary-tree/"),
   EASY_205("https://leetcode.com/problems/isomorphic-strings"),
+  EASY_206("https://leetcode.com/problems/reverse-linked-list/"),
   EASY_824("https://leetcode.com/problems/goat-latin"),
   EASY_290("https://leetcode.com/problems/word-pattern"),
   EASY_392("https://leetcode.com/problems/is-subsequence/"),
