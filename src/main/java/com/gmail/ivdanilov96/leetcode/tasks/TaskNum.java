@@ -7,6 +7,7 @@ public enum TaskNum {
   EASY_35("https://leetcode.com/problems/search-insert-position"),
   EASY_67("https://leetcode.com/problems/add-binary/"),
   EASY_104("https://leetcode.com/problems/maximum-depth-of-binary-tree/"),
+  EASY_205("https://leetcode.com/problems/isomorphic-strings"),
   EASY_824("https://leetcode.com/problems/goat-latin"),
   EASY_290("https://leetcode.com/problems/word-pattern"),
   EASY_392("https://leetcode.com/problems/is-subsequence/"),
@@ -37,7 +38,7 @@ public enum TaskNum {
   MEDIUM_2477("https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/"),
   HARD_42("https://leetcode.com/problems/trapping-rain-water"),
   HARD_185("https://leetcode.com/problems/department-top-three-salaries", SQL),
-  HARD_2306("https://leetcode.com/problems/naming-a-company/");
+  HARD_2306("https://leetcode.com/problems/naming-a-company/"), EASY_21("");
 
   private final String link;
   private final ProgrammingLang lang;
