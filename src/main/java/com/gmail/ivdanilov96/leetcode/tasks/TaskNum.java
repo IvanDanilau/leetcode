@@ -10,6 +10,7 @@ public enum TaskNum {
   EASY_290("https://leetcode.com/problems/word-pattern"),
   EASY_724("https://leetcode.com/problems/find-pivot-index"),
   EASY_953("https://leetcode.com/problems/verifying-an-alien-dictionary"),
+  EASY_989("https://leetcode.com/problems/add-to-array-form-of-integer/"),
   EASY_1047("https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/"),
   EASY_1050(
       "https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times",
