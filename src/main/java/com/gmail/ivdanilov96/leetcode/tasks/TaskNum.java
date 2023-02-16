@@ -5,6 +5,7 @@ import static com.gmail.ivdanilov96.leetcode.tasks.ProgrammingLang.SQL;
 public enum TaskNum {
 
   EASY_35("https://leetcode.com/problems/search-insert-position"),
+  EASY_67("https://leetcode.com/problems/add-binary/"),
   EASY_824("https://leetcode.com/problems/goat-latin"),
   EASY_290("https://leetcode.com/problems/word-pattern"),
   EASY_724("https://leetcode.com/problems/find-pivot-index"),
