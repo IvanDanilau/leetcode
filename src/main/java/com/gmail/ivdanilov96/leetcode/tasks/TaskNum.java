@@ -9,6 +9,7 @@ public enum TaskNum {
   EASY_104("https://leetcode.com/problems/maximum-depth-of-binary-tree/"),
   EASY_824("https://leetcode.com/problems/goat-latin"),
   EASY_290("https://leetcode.com/problems/word-pattern"),
+  EASY_392("https://leetcode.com/problems/is-subsequence/"),
   EASY_724("https://leetcode.com/problems/find-pivot-index"),
   EASY_953("https://leetcode.com/problems/verifying-an-alien-dictionary"),
   EASY_989("https://leetcode.com/problems/add-to-array-form-of-integer/"),
