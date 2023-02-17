@@ -13,6 +13,7 @@ public enum TaskNum {
   EASY_290("https://leetcode.com/problems/word-pattern"),
   EASY_392("https://leetcode.com/problems/is-subsequence/"),
   EASY_724("https://leetcode.com/problems/find-pivot-index"),
+  EASY_783("https://leetcode.com/problems/minimum-distance-between-bst-nodes/ø"),
   EASY_876("https://leetcode.com/problems/middle-of-the-linked-list"),
   EASY_953("https://leetcode.com/problems/verifying-an-alien-dictionary"),
   EASY_989("https://leetcode.com/problems/add-to-array-form-of-integer/"),
