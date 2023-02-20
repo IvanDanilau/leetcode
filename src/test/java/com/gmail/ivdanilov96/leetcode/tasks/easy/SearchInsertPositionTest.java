@@ -28,10 +28,10 @@ class SearchInsertPositionTest {
 
   private static Stream<Arguments> inputParameters() {
     return Stream.of(
-        arguments(new int[]{1, 3, 5, 6}, 2, 1),
-        arguments(new int[]{1, 3, 5, 6}, 0, 0),
+        arguments(new int[]{1, 3, 5, 6}, 7, 4),
         arguments(new int[]{1, 3, 5, 6}, 5, 2),
-        arguments(new int[]{1, 3, 5, 6}, 7, 4));
+        arguments(new int[]{1, 3, 5, 6}, 2, 1),
+        arguments(new int[]{1, 3, 5, 6}, 0, 0));
   }
 
 }

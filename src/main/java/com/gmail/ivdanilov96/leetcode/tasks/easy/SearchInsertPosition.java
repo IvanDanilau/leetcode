@@ -8,40 +8,39 @@ import java.util.Arrays;
 @Task(EASY_35)
 public class SearchInsertPosition {
 
-  public int searchInsert(int[] nums, int target) {
-    int start = 0;
-    int end = nums.length - 1;
-
-    while (start <= end) {
-      int curr = start + (end - start) / 2;
+  public int searchInsertRecursion(int[] nums, int target, int start) {
+    if (nums.length != 0) {
+      int curr = (nums.length - 1) / 2;
       if (nums[curr] == target) {
-        return curr;
+        return curr + start;
       }
-      if (nums[curr] > target) {
-        end = curr - 1;
+      int[] subArray;
+      if (target > nums[curr]) {
+        start += curr + 1;
+        subArray = Arrays.copyOfRange(nums, curr + 1, nums.length);
       } else {
-        start = curr + 1;
+        subArray = Arrays.copyOfRange(nums, 0, curr);
       }
+      return searchInsertRecursion(subArray, target, start);
+
     }
     return start;
   }
 
-  public int searchInsertRecursion(int[] nums, int target, int first) {
-    if (nums.length != 0) {
-      int curr = (nums.length - 1) / 2;
+  public int searchInsert(int[] nums, int target) {
+    int start = 0;
+    int end = nums.length - 1;
+    while (start <= end) {
+      int curr = (start + end) / 2;
       if (nums[curr] == target) {
-        return curr + first;
+        return curr;
       }
-      if (nums[curr] > target) {
-        int[] subarray = Arrays.copyOfRange(nums, 0, curr);
-        return searchInsertRecursion(subarray, target, first);
+      if (target > nums[curr]) {
+        start = curr + 1;
       } else {
-        first += curr + 1;
-        int[] subarray = Arrays.copyOfRange(nums, curr + 1, nums.length);
-        return searchInsertRecursion(subarray, target, first);
+        end = curr - 1;
       }
     }
-    return first;
+    return start;
   }
 }
-
