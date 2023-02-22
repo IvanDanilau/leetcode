@@ -39,6 +39,7 @@ public enum TaskNum {
   MEDIUM_567("https://leetcode.com/problems/permutation-in-string"),
   MEDIUM_608("https://leetcode.com/problems/tree-node", SQL),
   MEDIUM_904("https://leetcode.com/problems/fruit-into-baskets"),
+  MEDIUM_1011("https://leetcode.com/problems/capacity-to-ship-packages-within-d-days"),
   MEDIUM_1129("https://leetcode.com/problems/shortest-path-with-alternating-colors"),
   MEDIUM_1162("https://leetcode.com/problems/as-far-from-land-as-possible"),
   MEDIUM_2477("https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital"),
