@@ -6,6 +6,7 @@ public enum TaskNum {
   EASY_21("https://leetcode.com/problems/merge-two-sorted-lists"),
   EASY_35("https://leetcode.com/problems/search-insert-position"),
   EASY_67("https://leetcode.com/problems/add-binary"),
+  EASY_88("https://leetcode.com/problems/merge-sorted-array"),
   EASY_104("https://leetcode.com/problems/maximum-depth-of-binary-tree"),
   EASY_121("https://leetcode.com/problems/best-time-to-buy-and-sell-stock"),
   EASY_125("https://leetcode.com/problems/valid-palindrome/"),
