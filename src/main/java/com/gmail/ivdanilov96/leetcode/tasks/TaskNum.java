@@ -48,6 +48,7 @@ public enum TaskNum {
   MEDIUM_1129("https://leetcode.com/problems/shortest-path-with-alternating-colors"),
   MEDIUM_1162("https://leetcode.com/problems/as-far-from-land-as-possible"),
   MEDIUM_2477("https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital"),
+  MEDIUM_2512("https://leetcode.com/problems/reward-top-k-students"),
   HARD_42("https://leetcode.com/problems/trapping-rain-water"),
   HARD_185("https://leetcode.com/problems/department-top-three-salaries", SQL),
   HARD_1402("https://leetcode.com/problems/reducing-dishes"),
