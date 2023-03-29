@@ -50,6 +50,7 @@ public enum TaskNum {
   MEDIUM_2477("https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital"),
   HARD_42("https://leetcode.com/problems/trapping-rain-water"),
   HARD_185("https://leetcode.com/problems/department-top-three-salaries", SQL),
+  HARD_1402("https://leetcode.com/problems/reducing-dishes"),
   HARD_2306("https://leetcode.com/problems/naming-a-company");
 
   private final String link;
